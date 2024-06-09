@@ -5,7 +5,7 @@ import urllib3
 # تعطيل التحقق من صحة شهادة SSL
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-target = 'https://www.sdb.gov.sa/'
+target = 'https://starzplay.com/'
 fake_ip = '182.21.20.32'
 
 headers = {
