@@ -5,7 +5,7 @@ import urllib3
 # تعطيل التحقق من صحة شهادة SSL
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-target = 'https://starzplay.com/'
+target = 'https://tamatem.co/'
 fake_ip = '182.21.20.32'
 
 headers = {
